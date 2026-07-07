@@ -3,41 +3,41 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ForgeFit — Coaching sportif personnalisé à Bordeaux</title>
-<meta name="description" content="ForgeFit, coach sportif à Bordeaux. Programmes personnalisés, suivi nutritionnel, coaching en salle ou à domicile.">
+<title>Maison Lumière — Salon de coiffure premium à Paris</title>
+<meta name="description" content="Maison Lumière, salon de coiffure premium à Paris. Coupe, coloration, soins. Prise de rendez-vous en ligne.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../assets/site.css">
 <style>
   :root{
-    --bg:#0c0c0c; --surface:#161616; --text:#f5f5f5; --muted:#9a9a9a;
-    --line:#262626; --line-strong:#3a3a3a;
-    --accent:#e13030; --accent-contrast:#ffffff;
-    --font-display:'Anton', serif;
-    --font-body:'Inter', sans-serif;
-    --radius:4px;
+    --bg:#faf6f0; --surface:#f1e9dc; --text:#241f18; --muted:#7a6f5d;
+    --line:#e6dbc7; --line-strong:#d8c9ac;
+    --accent:#b08d3f; --accent-contrast:#faf6f0;
+    --font-display:'Cormorant Garamond', serif;
+    --font-body:'Jost', sans-serif;
+    --radius:2px;
   }
-  .hero h1{text-transform:uppercase; letter-spacing:.01em;} .section-title{text-transform:uppercase;}
+  .hero h1{font-weight:600;} .eyebrow{color:#8a6d2f;}
 </style>
 </head>
 <body>
 
 <header class="nav">
   <div class="nav-inner">
-    <a href="#accueil" class="brand">Forge <span>Fit</span></a>
+    <a href="#accueil" class="brand">Maison <span>Lumière</span></a>
     <nav class="links">
       <a href="#accueil">Accueil</a>
       <a href="#apropos">À propos</a>
-      <a href="#services">Programmes</a>
+      <a href="#services">Prestations</a>
       <a href="#contact">Contact</a>
     </nav>
-    <a href="#contact" class="nav-cta">Séance d'essai</a>
-    <button class="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+    <a href="#contact" class="nav-cta">Prendre rendez-vous</a>
+    <button class="burger" aria-label="Menu" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span><span></span></button>
   </div>
-  <div class="mobile-menu">
+  <div class="mobile-menu" id="mobile-menu">
     <a href="#accueil">Accueil</a>
     <a href="#apropos">À propos</a>
-    <a href="#services">Programmes</a>
+    <a href="#services">Prestations</a>
     <a href="#contact">Contact</a>
   </div>
 </header>
@@ -47,17 +47,17 @@
   <div class="container hero-grid">
     <div>
       
-      <div class="eyebrow reveal">Coach sportif certifié — Bordeaux</div>
-      <h1 class="reveal">Ton corps a un potentiel. On va le forger.</h1>
-      <p class="lede reveal">Programmes de coaching individuel ou en petit groupe, construits autour de tes objectifs réels : perte de poids, prise de masse ou remise en forme.</p>
+      <div class="eyebrow reveal">Salon de coiffure premium — Paris 8e</div>
+      <h1 class="reveal">Une lumière qui révèle chaque chevelure.</h1>
+      <p class="lede reveal">Maison Lumière est un salon confidentiel dédié à la coupe, la coloration et aux soins capillaires haut de gamme, dans un cadre pensé pour la détente.</p>
       <div class="hero-actions reveal">
-        <a href="#contact" class="btn btn-primary">Réserver une séance d'essai</a>
-        <a href="#services" class="btn btn-ghost">Voir les programmes</a>
+        <a href="#contact" class="btn btn-primary">Prendre rendez-vous</a>
+        <a href="#services" class="btn btn-ghost">Découvrir nos prestations</a>
       </div>
-      <div class="stats reveal"><div class="stat"><b>300+</b><span>clients accompagnés</span></div><div class="stat"><b>7</b><span>ans d'expérience</span></div><div class="stat"><b>92%</b><span>d'objectifs atteints</span></div></div>
+      <div class="stats reveal"><div class="stat"><b>9</b><span>coiffeurs experts</span></div><div class="stat"><b>4.9/5</b><span>note clientèle</span></div><div class="stat"><b>2012</b><span>année d'ouverture</span></div></div>
     </div>
     <div class="hero-media reveal">
-      <img src="https://picsum.photos/seed/forgefit-hero/900/1100" alt="Ton corps a un potentiel. On va le forger." style="aspect-ratio:4/5;">
+      <img src="https://picsum.photos/seed/lumiere-hero/900/1100" alt="Une lumière qui révèle chaque chevelure." style="aspect-ratio:4/5;">
     </div>
   </div>
 </section>
@@ -67,13 +67,13 @@
 <section class="section" id="apropos">
   <div class="container split">
     
+    <div class="reveal"><img src="https://picsum.photos/seed/lumiere-salon/900/700" alt="L'art du geste précis"></div>
+    
     <div>
       <div class="eyebrow reveal">À propos</div>
-      <h2 class="section-title reveal">Un coaching basé sur des résultats mesurables</h2>
-      <div class="reveal"><p>Diplômé d'État et spécialisé en préparation physique, j'accompagne des particuliers de tous niveaux depuis 2017, en salle comme à domicile.</p><p>Chaque programme démarre par un bilan complet (mobilité, composition corporelle, objectifs) pour construire un plan réaliste et évolutif.</p><p>Le suivi inclut un point nutrition mensuel et un ajustement du programme toutes les 4 semaines selon la progression.</p></div>
+      <h2 class="section-title reveal">L'art du geste précis</h2>
+      <div class="reveal"><p>Fondé en 2012 par Camille Vasseur, Maison Lumière s'est imposé comme une référence parisienne pour la coloration végétale et les coupes sur-mesure.</p><p>Chaque prestation débute par un diagnostic capillaire approfondi, pour adapter le geste et les produits à la nature de chaque chevelure.</p><p>Le salon travaille exclusivement avec des marques françaises engagées dans une démarche plus respectueuse du cheveu et de l'environnement.</p></div>
     </div>
-    
-    <div class="reveal"><img src="https://picsum.photos/seed/forgefit-coach/900/700" alt="Un coaching basé sur des résultats mesurables"></div>
   </div>
 </section>
 
@@ -81,10 +81,10 @@
 
 <section class="section alt" id="services">
   <div class="container">
-    <div class="eyebrow reveal">Programmes</div>
-    <h2 class="section-title reveal">Un accompagnement pour chaque objectif</h2>
-    <p class="lede reveal" style="margin-bottom:44px;">Coaching individuel, en duo ou en petit groupe — en salle ou à domicile.</p>
-    <div class="grid-3"><div class="card reveal"><div class="icon">🔥</div><h3>Perte de poids</h3><p>Programme combinant renforcement, cardio et suivi nutritionnel sur 12 semaines.</p></div><div class="card reveal"><div class="icon">💪</div><h3>Prise de masse</h3><p>Plan de musculation progressif avec suivi des charges et de la récupération.</p></div><div class="card reveal"><div class="icon">🏃</div><h3>Remise en forme</h3><p>Reprise du sport en douceur, mobilité et renforcement général.</p></div></div>
+    <div class="eyebrow reveal">Prestations</div>
+    <h2 class="section-title reveal">Nos soins signature</h2>
+    <p class="lede reveal" style="margin-bottom:44px;">Des prestations pensées pour sublimer chaque type de cheveu.</p>
+    <div class="grid-3"><div class="card reveal"><div class="icon">✂️</div><h3>Coupe sur-mesure</h3><p>Diagnostic personnalisé et coupe adaptée à la texture et à la morphologie du visage.</p></div><div class="card reveal"><div class="icon">🎨</div><h3>Coloration végétale</h3><p>Techniques de balayage et coloration à base de pigments naturels.</p></div><div class="card reveal"><div class="icon">💆</div><h3>Rituels soin</h3><p>Soins profonds en cabine pour restaurer, hydrater et fortifier la fibre capillaire.</p></div></div>
   </div>
 </section>
 
@@ -92,17 +92,9 @@
 
 <section class="section" id="galerie">
   <div class="container">
-    <div class="eyebrow reveal">Résultats</div>
-    <h2 class="section-title reveal" style="margin-bottom:36px;">Avant / après</h2>
-    <div class="gallery reveal"><a href="https://picsum.photos/seed/forgefit-1/900/900" target="_blank" rel="noopener"><img src="https://picsum.photos/seed/forgefit-1/500/500" alt="Photo 1" loading="lazy"></a><a href="https://picsum.photos/seed/forgefit-2/900/900" target="_blank" rel="noopener"><img src="https://picsum.photos/seed/forgefit-2/500/500" alt="Photo 2" loading="lazy"></a><a href="https://picsum.photos/seed/forgefit-3/900/900" target="_blank" rel="noopener"><img src="https://picsum.photos/seed/forgefit-3/500/500" alt="Photo 3" loading="lazy"></a><a href="https://picsum.photos/seed/forgefit-4/900/900" target="_blank" rel="noopener"><img src="https://picsum.photos/seed/forgefit-4/500/500" alt="Photo 4" loading="lazy"></a><a href="https://picsum.photos/seed/forgefit-5/900/900" target="_blank" rel="noopener"><img src="https://picsum.photos/seed/forgefit-5/500/500" alt="Photo 5" loading="lazy"></a><a href="https://picsum.photos/seed/forgefit-6/900/900" target="_blank" rel="noopener"><img src="https://picsum.photos/seed/forgefit-6/500/500" alt="Photo 6" loading="lazy"></a><a href="https://picsum.photos/seed/forgefit-7/900/900" target="_blank" rel="noopener"><img src="https://picsum.photos/seed/forgefit-7/500/500" alt="Photo 7" loading="lazy"></a><a href="https://picsum.photos/seed/forgefit-8/900/900" target="_blank" rel="noopener"><img src="https://picsum.photos/seed/forgefit-8/500/500" alt="Photo 8" loading="lazy"></a></div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container">
-    <div class="eyebrow reveal">Témoignages</div>
-    <h2 class="section-title reveal" style="margin-bottom:36px;">Ce que disent mes clients</h2>
-    <div class="grid-3"><div class="quote reveal"><div class="stars">*****</div><p>12 kilos perdus en 4 mois avec un vrai suivi, pas juste un programme sur papier.</p><div class="who">Karim D.<span>Client depuis 2024</span></div></div><div class="quote reveal"><div class="stars">*****</div><p>Le suivi nutrition en plus des séances a tout changé pour moi.</p><div class="who">Élodie F.<span>Cliente depuis 2023</span></div></div><div class="quote reveal"><div class="stars">*****</div><p>Programme exigeant mais adapté à mon niveau. Résultats visibles dès le 2e mois.</p><div class="who">Antoine P.<span>Client depuis 2025</span></div></div></div>
+    <div class="eyebrow reveal">Galerie</div>
+    <h2 class="section-title reveal" style="margin-bottom:36px;">Nos réalisations</h2>
+    <div class="gallery reveal"><a href="https://picsum.photos/seed/lumiere-1/900/900" target="_blank" rel="noopener"><img src="https://picsum.photos/seed/lumiere-1/500/500" alt="Photo 1" loading="lazy"></a><a href="https://picsum.photos/seed/lumiere-2/900/900" target="_blank" rel="noopener"><img src="https://picsum.photos/seed/lumiere-2/500/500" alt="Photo 2" loading="lazy"></a><a href="https://picsum.photos/seed/lumiere-3/900/900" target="_blank" rel="noopener"><img src="https://picsum.photos/seed/lumiere-3/500/500" alt="Photo 3" loading="lazy"></a><a href="https://picsum.photos/seed/lumiere-4/900/900" target="_blank" rel="noopener"><img src="https://picsum.photos/seed/lumiere-4/500/500" alt="Photo 4" loading="lazy"></a><a href="https://picsum.photos/seed/lumiere-5/900/900" target="_blank" rel="noopener"><img src="https://picsum.photos/seed/lumiere-5/500/500" alt="Photo 5" loading="lazy"></a><a href="https://picsum.photos/seed/lumiere-6/900/900" target="_blank" rel="noopener"><img src="https://picsum.photos/seed/lumiere-6/500/500" alt="Photo 6" loading="lazy"></a><a href="https://picsum.photos/seed/lumiere-7/900/900" target="_blank" rel="noopener"><img src="https://picsum.photos/seed/lumiere-7/500/500" alt="Photo 7" loading="lazy"></a><a href="https://picsum.photos/seed/lumiere-8/900/900" target="_blank" rel="noopener"><img src="https://picsum.photos/seed/lumiere-8/500/500" alt="Photo 8" loading="lazy"></a></div>
   </div>
 </section>
 
@@ -110,27 +102,27 @@
 
 <section class="section alt" id="contact">
   <div class="container">
-    <div class="eyebrow reveal">Contact</div>
-    <h2 class="section-title reveal">Réserver ta séance d'essai</h2>
-    <p class="lede reveal" style="margin-bottom:40px;">Premier échange gratuit pour définir tes objectifs et le format le plus adapté.</p>
+    <div class="eyebrow reveal">Rendez-vous</div>
+    <h2 class="section-title reveal">Réserver un créneau</h2>
+    <p class="lede reveal" style="margin-bottom:40px;">Le salon fonctionne uniquement sur rendez-vous, en semaine comme le week-end.</p>
     <div class="contact-grid">
       <div class="reveal">
         <form class="contact-form">
           <div class="field"><label>Nom complet</label><input type="text" required placeholder="Votre nom"></div>
           <div class="field"><label>E-mail</label><input type="email" required placeholder="vous@exemple.com"></div>
           <div class="field"><label>Message</label><textarea required placeholder="Votre message..."></textarea></div>
-          <button type="submit" class="btn btn-primary" style="width:100%;">Réserver ma séance d'essai</button>
+          <button type="submit" class="btn btn-primary" style="width:100%;">Demander un rendez-vous</button>
         </form>
         <p class="form-note">Formulaire de demonstration : aucun message n'est reellement envoye (aucun serveur, aucune cle API). Voir le README pour brancher un vrai service d'envoi.</p>
         <div class="contact-info">
-          <div><b>Telephone</b>06 00 00 00 00</div>
-          <div><b>E-mail</b>contact@forgefit-demo.fr</div>
-          <div><b>Adresse</b>Quartier des Chartrons, 33000 Bordeaux</div>
-          <div><b>Horaires</b>Lun–Sam · 7h–20h30</div>
+          <div><b>Telephone</b>01 45 00 00 00</div>
+          <div><b>E-mail</b>rdv@maison-lumiere-demo.fr</div>
+          <div><b>Adresse</b>9 rue du Faubourg Saint-Honoré, 75008 Paris</div>
+          <div><b>Horaires</b>Mar–Sam · 9h30–19h</div>
         </div>
       </div>
       <div class="map reveal">
-        <iframe loading="lazy" src="https://www.google.com/maps?q=Chartrons+Bordeaux&output=embed"></iframe>
+        <iframe loading="lazy" src="https://www.google.com/maps?q=Faubourg+Saint-Honore+Paris&output=embed"></iframe>
       </div>
     </div>
   </div>
@@ -141,26 +133,27 @@
   <div class="container">
     <div class="footer-grid">
       <div>
-        <div class="brand" style="margin-bottom:12px;">Forge <span>Fit</span></div>
-        <p class="lede" style="font-size:14px;">Coaching sportif individuel à Bordeaux, en salle ou à domicile.</p>
+        <div class="brand" style="margin-bottom:12px;">Maison <span>Lumière</span></div>
+        <p class="lede" style="font-size:14px;">Coupe, coloration et soins premium au cœur de Paris.</p>
       </div>
       <div>
         <h4>Navigation</h4>
         <a href="#accueil">Accueil</a>
         <a href="#apropos">À propos</a>
-        <a href="#services">Programmes</a>
+        <a href="#services">Prestations</a>
         <a href="#contact">Contact</a>
       </div>
       <div>
         <h4>Contact</h4>
-        <a href="tel:06 00 00 00 00">06 00 00 00 00</a>
-        <a href="mailto:contact@forgefit-demo.fr">contact@forgefit-demo.fr</a>
-        <a href="#">Chartrons, Bordeaux</a>
+        <a href="tel:01 45 00 00 00">01 45 00 00 00</a>
+        <a href="mailto:rdv@maison-lumiere-demo.fr">rdv@maison-lumiere-demo.fr</a>
+        <a href="#">Faubourg Saint-Honoré, Paris</a>
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© 2026 Forge. Site de démonstration — portfolio. Oumar.A</span>
+      <span>© 2026 Maison. Site de démonstration — portfolio.</span>
       <span><a href="../index.html">← Retour au portfolio</a></span>
+      <span>Site réalisé par Oumar.A</span>
     </div>
   </div>
 </footer>
