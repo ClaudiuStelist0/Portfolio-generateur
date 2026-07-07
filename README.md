@@ -37,3 +37,12 @@ formulaire de contact simulé en JavaScript).
 à générer les 4 sites terminés. Ils ne sont pas nécessaires pour héberger le
 site — tu peux les supprimer du dépôt GitHub si tu veux, ou les garder pour
 générer les 4 sites restants si tu relances une session avec moi.
+
+## 🌐 Démo en ligne (Accès en 1 clic)
+
+Voici les versions fonctionnelles des sites internet générés. Cliquez sur les liens ci-dessous pour les visiter directement dans votre navigateur :
+
+*Musculation🏋️‍♂️ **[Visiter le site Coach](https://claudiustelist0.github.io/Portfolio-generateur/coach/)**
+* Coiffeur✂️ **[Visiter le site Coiffeur](https://claudiustelist0.github.io/Portfolio-generateur/coiffeur/)**
+* Plombier🔧 **[Visiter le site Plombier](https://claudiustelist0.github.io/Portfolio-generateur/plombier/)**
+* Restaurant🍔 **[Visiter le site Restaurant](https://claudiustelist0.github.io/Portfolio-generateur/restaurant/)**
