@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mon Portfolio — 8 sites vitrines de démonstration</title>
+<meta name="description" content="Portfolio de création de sites web. Découvrez 8 sites vitrines pour différents métiers, conçus avec soin et attention aux détails.">
+<meta property="og:title" content="Mon Portfolio — 8 sites vitrines de démonstration">
+<meta property="og:description" content="Portfolio de création de sites web. Découvrez 8 sites vitrines pour différents métiers, conçus avec soin et attention aux détails.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+<style>
+  :root{
+    --bg:#f8f9fa; --surface:#ffffff; --text:#2c3e50; --muted:#7f8c8d;
+    --line:#e0e0e0; --line-strong:#d0d0d0;
+    --accent:#3498db; --accent-contrast:#ffffff;
+    --font-display:'Playfair Display', serif;
+    --font-body:'Inter', sans-serif;
+    --radius:4px;
+  }
+  .hero-media{border:1px solid #e0e0e0;}
+  .portfolio-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; margin-top: 32px; }
+  .portfolio-card { background: var(--surface); border-radius: var(--radius); overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05); transition: transform 0.3s ease; }
+  .portfolio-card:hover { transform: translateY(-4px); }
+  .portfolio-card img { width: 100%; height: 200px; object-fit: cover; }
+  .portfolio-card-content { padding: 20px; }
+  .portfolio-card h3 { margin: 0 0 8px 0; font-size: 18px; }
+  .portfolio-card p { margin: 0 0 16px 0; color: var(--muted); font-size: 14px; }
+  .portfolio-card-buttons { display: flex; gap: 8px; }
+  .portfolio-card-buttons a { flex: 1; text-align: center; padding: 8px 12px; border-radius: 4px; font-size: 14px; }
+  .btn-demo { background: var(--accent); color: var(--accent-contrast); }
+  .btn-code { background: transparent; color: var(--accent); border: 1px solid var(--accent); }
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="#accueil" class="brand">Mon <span>Portfolio</span></a>
+    <nav class="links">
+      <a href="#accueil">Accueil</a>
+      <a href="#sites">Sites de démonstration</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="nav-cta">Me contacter</a>
+    <button class="burger" aria-label="Menu" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span><span></span></button>
+  </div>
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#accueil">Accueil</a>
+    <a href="#sites">Sites de démonstration</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </div>
+</header>
+
+<section class="hero" id="accueil">
+  <div class="container hero-grid">
+    <div>
+
+      <div class="eyebrow reveal">Création de sites web</div>
+      <h1 class="reveal">Des sites web sur-mesure pour votre activité.</h1>
+      <p class="lede reveal">Je conçois des sites vitrines élégants et fonctionnels, adaptés à vos besoins et à votre image. Découvrez mes réalisations et imaginons ensemble votre présence en ligne.</p>
+      <div class="hero-actions reveal">
+        <a href="#contact" class="btn btn-primary">Demander un devis</a>
+        <a href="#sites" class="btn btn-ghost">Voir les démonstrations</a>
+      </div>
+      <div class="stats reveal"><div class="stat"><b>8</b><span>sites de démonstration</span></div><div class="stat"><b>4+</b><span>années d'expérience</span></div><div class="stat"><b>100%</b><span>satisfaction client</span></div></div>
+    </div>
+    <div class="hero-media reveal">
+      <img src="https://picsum.photos/seed/portfolio-hero/900/1100" alt="Des sites web sur-mesure pour votre activité." style="aspect-ratio:4/5;">
+    </div>
+  </div>
+</section>
+
+<section class="section" id="sites">
+  <div class="container">
+    <div class="eyebrow reveal">Sites de démonstration</div>
+    <h2 class="section-title reveal">8 exemples pour différents métiers</h2>
+    <p class="lede reveal" style="margin-bottom:32px;">Chaque site est conçu avec une identité visuelle unique, tout en partageant la même structure technique.</p>
+
+    <div class="portfolio-grid">
+      <div class="portfolio-card reveal">
+        <img src="https://picsum.photos/seed/restaurant-portfolio/600/400" alt="Site restaurant">
+        <div class="portfolio-card-content">
+          <h3>Restaurant gastronomique</h3>
+          <p>Le Cerisier — Cuisine de saison et cadre élégant à Lyon.</p>
+          <div class="portfolio-card-buttons">
+            <a href="restaurant/index.html" class="btn btn-primary btn-demo">Voir la démo</a>
+            <a href="https://github.com/ClaudiuStelist0/Portfolio-generateur" class="btn btn-ghost btn-code" target="_blank">Voir le code</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-card reveal">
+        <img src="https://picsum.photos/seed/plombier-portfolio/600/400" alt="Site plombier">
+        <div class="portfolio-card-content">
+          <h3>Plombier professionnel</h3>
+          <p>Dépannage 24/7 et services techniques avec urgence.</p>
+          <div class="portfolio-card-buttons">
+            <a href="plombier/index.html" class="btn btn-primary btn-demo">Voir la démo</a>
+            <a href="https://github.com/ClaudiuStelist0/Portfolio-generateur" class="btn btn-ghost btn-code" target="_blank">Voir le code</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-card reveal">
+        <img src="https://picsum.photos/seed/coiffeur-portfolio/600/400" alt="Site coiffeur">
+        <div class="portfolio-card-content">
+          <h3>Salon de coiffure</h3>
+          <p>Prestations premium et prise de rendez-vous en ligne.</p>
+          <div class="portfolio-card-buttons">
+            <a href="coiffeur/index.html" class="btn btn-primary btn-demo">Voir la démo</a>
+            <a href="https://github.com/ClaudiuStelist0/Portfolio-generateur" class="btn btn-ghost btn-code" target="_blank">Voir le code</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-card reveal">
+        <img src="https://picsum.photos/seed/coach-portfolio/600/400" alt="Site coach">
+        <div class="portfolio-card-content">
+          <h3>Coach sportif</h3>
+          <p>Programmes d'accompagnement et suivi personnalisé.</p>
+          <div class="portfolio-card-buttons">
+            <a href="coach/index.html" class="btn btn-primary btn-demo">Voir la démo</a>
+            <a href="https://github.com/ClaudiuStelist0/Portfolio-generateur" class="btn btn-ghost btn-code" target="_blank">Voir le code</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-card reveal">
+        <img src="https://picsum.photos/seed/photographe-portfolio/600/400" alt="Site photographe">
+        <div class="portfolio-card-content">
+          <h3>Photographe professionnel</h3>
+          <p>Instant Pur — Prestations mariage, portrait et corporate.</p>
+          <div class="portfolio-card-buttons">
+            <a href="photographe/index.html" class="btn btn-primary btn-demo">Voir la démo</a>
+            <a href="https://github.com/ClaudiuStelist0/Portfolio-generateur" class="btn btn-ghost btn-code" target="_blank">Voir le code</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-card reveal">
+        <img src="https://picsum.photos/seed/avocat-portfolio/600/400" alt="Site avocat">
+        <div class="portfolio-card-content">
+          <h3>Cabinet d'avocats</h3>
+          <p>Berthier & Associés — Expertise en droit des affaires et immobilier.</p>
+          <div class="portfolio-card-buttons">
+            <a href="avocat/index.html" class="btn btn-primary btn-demo">Voir la démo</a>
+            <a href="https://github.com/ClaudiuStelist0/Portfolio-generateur" class="btn btn-ghost btn-code" target="_blank">Voir le code</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-card reveal">
+        <img src="https://picsum.photos/seed/artisan-portfolio/600/400" alt="Site artisan">
+        <div class="portfolio-card-content">
+          <h3>Menuisier artisan</h3>
+          <p>L'Établi — Agencement sur-mesure et mobilier en bois massif.</p>
+          <div class="portfolio-card-buttons">
+            <a href="artisan/index.html" class="btn btn-primary btn-demo">Voir la démo</a>
+            <a href="https://github.com/ClaudiuStelist0/Portfolio-generateur" class="btn btn-ghost btn-code" target="_blank">Voir le code</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-card reveal">
+        <img src="https://picsum.photos/seed/airbnb-portfolio/600/400" alt="Site airbnb">
+        <div class="portfolio-card-content">
+          <h3>Location de vacances</h3>
+          <p>Villa Belvédère — Appartement avec piscine à Nice.</p>
+          <div class="portfolio-card-buttons">
+            <a href="airbnb/index.html" class="btn btn-primary btn-demo">Voir la démo</a>
+            <a href="https://github.com/ClaudiuStelist0/Portfolio-generateur" class="btn btn-ghost btn-code" target="_blank">Voir le code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="services">
+  <div class="container">
+    <div class="eyebrow reveal">Services</div>
+    <h2 class="section-title reveal">Ce que je propose</h2>
+    <p class="lede reveal" style="margin-bottom:44px;">Des solutions complètes pour votre présence en ligne.</p>
+    <div class="grid-3"><div class="card reveal"><div class="icon">🎨</div><h3>Design sur-mesure</h3><p>Création d'une identité visuelle unique adaptée à votre activité et à vos valeurs.</p></div><div class="card reveal"><div class="icon">💻</div><h3>Développement</h3><p>Sites web responsive, rapides et optimisés pour le référencement naturel.</p></div><div class="card reveal"><div class="icon">📱</div><h3>Responsive</h3><p>Adaptation parfaite sur tous les appareils : mobile, tablette et desktop.</p></div></div>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <div class="container">
+    <div class="eyebrow reveal">Contact</div>
+    <h2 class="section-title reveal">Parlons de votre projet</h2>
+    <p class="lede reveal" style="margin-bottom:40px;">Par téléphone, par e-mail ou via le formulaire ci-dessous — je réponds sous 24h.</p>
+    <div class="contact-grid">
+      <div class="reveal">
+        <form class="contact-form">
+          <div class="field"><label>Nom complet</label><input type="text" required placeholder="Votre nom"></div>
+          <div class="field"><label>E-mail</label><input type="email" required placeholder="vous@exemple.com"></div>
+          <div class="field"><label>Message</label><textarea required placeholder="Votre message..."></textarea></div>
+          <button type="submit" class="btn btn-primary" style="width:100%;">Envoyer la demande</button>
+        </form>
+        <p class="form-note">Formulaire de demonstration : aucun message n'est reellement envoye (aucun serveur, aucune cle API). Voir le README pour brancher un vrai service d'envoi.</p>
+        <div class="contact-info">
+          <div><b>Telephone</b>06 00 00 00 00</div>
+          <div><b>E-mail</b>contact@mon-portfolio-demo.fr</div>
+          <div><b>Adresse</b>Paris, France</div>
+          <div><b>Disponibilité</b>Lun–Ven · 9h–18h</div>
+        </div>
+      </div>
+      <div class="map reveal">
+        <iframe loading="lazy" src="https://www.google.com/maps?q=Paris&output=embed"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="brand" style="margin-bottom:12px;">Mon <span>Portfolio</span></div>
+        <p class="lede" style="font-size:14px;">Création de sites web sur-mesure pour professionnels.</p>
+      </div>
+      <div>
+        <h4>Navigation</h4>
+        <a href="#accueil">Accueil</a>
+        <a href="#sites">Sites de démonstration</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <a href="tel:06 00 00 00 00">06 00 00 00 00</a>
+        <a href="mailto:contact@mon-portfolio-demo.fr">contact@mon-portfolio-demo.fr</a>
+        <a href="#">Paris, France</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Mon Portfolio. Site de démonstration — tous droits réservés.</span>
+      <span>Site réalisé par Oumar.A</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/site.js"></script>
+</body>
+</html>
