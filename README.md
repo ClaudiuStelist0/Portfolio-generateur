@@ -42,7 +42,7 @@ générer les 4 sites restants si tu relances une session avec moi.
 
 Voici les versions fonctionnelles des sites internet générés. Cliquez sur les liens ci-dessous pour les visiter directement dans votre navigateur :
 
-*Musculation🏋️‍♂️ **[Visiter le site Coach](https://claudiustelist0.github.io/Portfolio-generateur/coach/)**
-* Coiffeur✂️ **[Visiter le site Coiffeur](https://claudiustelist0.github.io/Portfolio-generateur/coiffeur/)**
-* Plombier🔧 **[Visiter le site Plombier](https://claudiustelist0.github.io/Portfolio-generateur/plombier/)**
-* Restaurant🍔 **[Visiter le site Restaurant](https://claudiustelist0.github.io/Portfolio-generateur/restaurant/)**
+* 🏋️‍♂️ **[Visiter le site Coach](https://claudiustelist0.github.io/Portfolio-generateur/coach/)**
+* ✂️ **[Visiter le site Coiffeur](https://claudiustelist0.github.io/Portfolio-generateur/coiffeur/)**
+* 🔧 **[Visiter le site Plombier](https://claudiustelist0.github.io/Portfolio-generateur/plombier/)**
+* 🍔 **[Visiter le site Restaurant](https://claudiustelist0.github.io/Portfolio-generateur/restaurant/)**
